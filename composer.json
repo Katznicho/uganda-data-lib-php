@@ -1,0 +1,21 @@
+{
+    "name": "katznicho/uganda-data-lib",
+    "description": "An php package for working with uganda specific data",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Katznicho\\UgandaDataLib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Katende Nicholas",
+            "email": "katznicho@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
